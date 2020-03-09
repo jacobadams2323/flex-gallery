@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide&display=swap");
+
+.box {
+  width: 300px;
+  height: auto;
+}
+
+.box > img {
+  width: 100%;
+}
+.wrapper h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Audiowide", cursive;
+}
+
+.img-area {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-img {
+  padding: 0 20px 20px;
+}
+
+img:hover {
+  opacity: 0.6;
+  transition: 0.9s;
+}
